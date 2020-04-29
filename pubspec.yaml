@@ -14,8 +14,10 @@ dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    androidPackage: com.bostrot.flutterandroidpip
-    pluginClass: FlutterAndroidPipPlugin
+    platforms:
+      android:
+        androidPackage: com.bostrot.flutterandroidpip
+        pluginClass: FlutterAndroidPipPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
